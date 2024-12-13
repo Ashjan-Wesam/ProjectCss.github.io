@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .sec1{
+
+            background-image: url(Images/hero.jpg);
+            filter: brightness(70%);
+            
+        }
+
+        .Container{
+
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+           
+           
+        }
+
+        .logo{
+
+            padding-left: 90px;
+            font-size: 20px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+        }
+
+        .nav{
+
+            display: flex;
+            
+            
+            
+        }
+        h4{
+            padding-right: 50px;
+          
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+
+        .Header{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 100px;
+        }
+
+        h1{
+
+            color: white;
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 30px;
+            padding-bottom: 15px;
+        }
+
+        .btn{
+
+            color: white;
+            background-color: rgb(32, 173, 255);
+            padding: 20px;
+            width: 250px;
+            margin: 60px;
+            margin-bottom: 200px;
+            border: 1px solid  rgb(32, 173, 255);
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .sec2{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .text-sec2{
+
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 30px;
+        }
+
+        p{
+
+            text-align: center;
+            padding-bottom:40px ;
+        }
+
+        hr{
+
+            width: 150px;
+            border: 2px solid rgb(32, 173, 255) ;
+            
+        }
+        .sec3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 30px;
+        }
+
+        .images-container{
+
+            display: flex;
+            padding: 20px;
+            
+        }
+        .small{
+
+            width: 350px;
+            
+        }
+        .large{
+
+            width: 650px;
+        }
+        img{
+
+            padding-left: 20px;
+        }
+
+        .HeadingsAndParagrsphas{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sec4{
+
+            background-color: rgb(222, 221, 221);
+            padding-bottom: 100px;
+            
+        }
+
+        .Heading{
+
+            text-align: center;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        .Header2{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 80px;
+            margin-right: 80px;
+            margin-left: 60px;
+           
+        }
+
+        .form{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn2{
+
+            color: white;
+            background-color: rgb(32, 173, 255);
+            padding: 15px;
+            width: 250px;
+            border: 1px solid  rgb(32, 173, 255);
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+
+
+        }
+
+        .email{
+
+            padding: 15px;
+            width: 450px;
+            font-size: 20px;
+            margin-right: 20px;
+
+
+        }
+
+        .sec5{
+
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            background-color: rgb(69, 69, 69);
+            margin: 0;
+        }
+
+        .para{
+
+            text-align: center;
+            padding-bottom:10px ;
+            font-family: Arial, Helvetica, sans-serif;
+            color: darkgray;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        a:hover{
+
+            color:  rgb(32, 173, 255);
+        }
+
+        .btn:hover , .btn2:hover{
+
+            background-color: white;
+            color:  rgb(32, 173, 255);
+            
+        }
+        @media screen and (max-width : 700px) {
+
+            .HeadingsAndParagrsphas{
+
+                flex-direction: column;
+            }
+            
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <section class="sec1" id="sec1">
+
+    <div class="Container">
+
+        <div class="logo">Website Logo</div>
+
+        <div class="nav">
+
+            <h4><a href="#sec1">Home</a></h4>
+            <h4><a href="#sec2">Products</a></h4>
+            <h4><a href="#sec4">About</a></h4>
+            <h4><a href="#contact">Contacts</a></h4>
+
+        </div>
+        
+
+    </div>
+
+    <div class="Header">
+
+        <h1>Responsive Flexbox Template</h1>
+        <h4 style="font-size: 25px;">A freebie by Tutorialzine.</h4>
+        <button class="btn">DOWNLOAD IT HERE</button>
+
+    </div>
+
+</section>
+
+<section class="sec2" id="sec2">
+
+    <h2 class="text-sec2">Some Of Our Work</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, alias aliquid! Provident, dolores officia enim fuga ex quae sit laudantium facilis hic, <br> praesentium fugiat quas. Natus similique exercitationem excepturi sed!</p>
+    <hr>
+
+
+</section>
+
+<section class="sec3" id="sec3">
+
+    <div class="images-container">
+        <img src="Images/img1.jpg" class="small">
+        <img src="Images/img2.jpg" class="large">
+    </div>
+
+    <div class="images-container">
+        <img src="Images/img3.jpg" class="large">
+        <img src="Images/img4.jpg" class="small">
+    </div>
+
+</section>
+
+<section class="sec4" id="sec4">
+
+    <div class="Header">
+        <h2 class="text-sec2">Features And Services</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, alias aliquid! Provident, dolores officia enim fuga ex quae sit laudantium facilis hic, <br> praesentium fugiat quas. Natus similique exercitationem excepturi sed!</p>
+        <hr>
+    </div>
+
+    <div class="HeadingsAndParagrsphas">
+
+        <div class="Header2">
+            <h4 class="Heading">Photography</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, saepe eligendi numquam earum soluta, cumque recusandae laborum quo fugit pariatur voluptatum ullam dignissimos fuga. Officiis voluptatum provident nostrum odit. Facere.</p>
+        </div>
+
+        <div class="Header2">
+            <h4 class="Heading">Web Development</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, saepe eligendi numquam earum soluta, cumque recusandae laborum quo fugit pariatur voluptatum ullam dignissimos fuga. Officiis voluptatum provident nostrum odit. Facere.</p>
+        </div>
+
+        <div class="Header2">
+            <h4 class="Heading">Content Editing</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, saepe eligendi numquam earum soluta, cumque recusandae laborum quo fugit pariatur voluptatum ullam dignissimos fuga. Officiis voluptatum provident nostrum odit. Facere.</p>
+        </div>
+
+    </div>
+
+    <div class="Header">
+
+        <h2 class="text-sec2">Join Our Newsletter</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, alias aliquid! Provident, dolores officia enim fuga ex quae sit laudantium facilis hic, <br> praesentium fugiat quas. Natus similique exercitationem excepturi sed!</p>
+        <hr>
+
+    </div>
+
+    <form class="form" id="contact">
+
+        <input class="email" placeholder="email" type="email">
+        <button class="btn2">SUBSCRIBE NOW</button>
+
+    </form>
+
+</section>
+
+<section class="sec5">
+
+    <p class="para">MADE BY <a href="https://tutorialzine.com/" target="_blank">TUTORIALZINE</a>. IMAGES COURTESY TO <a href="https://unsplash.com/" target="_blank">UNSPLASH</a>.</p>
+    <p class="para">NO ATTRIBUTION REQUIRED. YOU CAN REMOVE THIS FOOTER.</p>
+
+</section>
+    
+</body>
+</html>
